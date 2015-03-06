@@ -1,0 +1,33 @@
+{
+  "name": "NpmKarmaRequirejsBowerJasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "requirejs",
+    "karma"
+  ],
+  "author": "SGoemans",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "backbone.localstorage": "^1.1.16",
+    "jquery": "^2.1.3",
+    "requirejs": "^2.1.16",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-requirejs": "^0.2.2",
+    "sinon": "^1.13.0"
+  }
+}
